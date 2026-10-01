@@ -31,13 +31,14 @@ enum Role {
 }
 
 generator client {
-  provider = "prisma-client"
-  output   = "../src/generated/prisma"
+  provider = "prisma-client-js"
+  // output   = "../src/generated/prisma"
 }
 
 datasource db {
   provider = "sqlite"
 }
+
 
 /* datasource db {
   provider = "postgresql"
